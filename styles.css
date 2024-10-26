@@ -11,22 +11,27 @@ body {
     margin: 0;
     padding: 10px;
 }
+
 .ascii-art {
     white-space: pre;
-    font-family: monospace;
+    font-family: "Courier New", Courier, monospace; /* Ensures consistent monospace */
     color: #333;
     margin: 20px 0;
-    font-size: 18px; /* Default font size for desktop */
+    font-size: 24px; /* Increased font size */
+    line-height: 1; /* Tightens vertical spacing */
 }
+
 .subtitle {
+    font-family: Arial, sans-serif; /* Contrasts with monospace for subtitle */
     font-size: 24px;
     color: #555;
     margin-top: 20px;
 }
+
 /* Adjust font size for mobile */
 @media (max-width: 600px) {
     .ascii-art {
-        font-size: 12px; /* Smaller font size for mobile */
+        font-size: 18px; /* Adjusted font size for mobile */
     }
     .subtitle {
         font-size: 20px;
