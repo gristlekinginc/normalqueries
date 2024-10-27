@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
   color: #00FF00;
@@ -15,14 +16,18 @@ body {
 
 .ascii-art {
   font-size: 5vw; /* Responsive font size based on viewport width */
-  line-height: 0.9; /* Adjusted line height for better alignment */
+  line-height: 1.1; /* Reduced line height for better alignment */
   white-space: pre;
   margin: 0;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
   .ascii-art {
     font-size: 20px; /* Fixed font size for larger screens */
-    line-height: 1.0; /* Adjusted for larger screens as well */
   }
 }
