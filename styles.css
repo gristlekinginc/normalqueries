@@ -1,4 +1,3 @@
-
 body {
   background-color: black;
   color: #00FF00;
@@ -16,7 +15,7 @@ body {
 
 .ascii-art {
   font-size: 5vw; /* Responsive font size based on viewport width */
-  line-height: 1.2;
+  line-height: 1.1; /* Reduced line height for better alignment */
   white-space: pre;
   margin: 0;
 }
